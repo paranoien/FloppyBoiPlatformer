@@ -2,3 +2,4 @@ This is my first platformer project in Unity. The game is currently in developme
 
 Attributions:
 Music: Hachiko (The faithful dog) by The Kyoto Connection
+Dash animation sprite: @nyk_nck
