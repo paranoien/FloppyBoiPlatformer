@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/new build.loader.js";
+      var loaderUrl = buildUrl + "/FloppyBoiPlatformer.loader.js";
       var config = {
-        dataUrl: buildUrl + "/new build.data",
-        frameworkUrl: buildUrl + "/new build.framework.js",
-        codeUrl: buildUrl + "/new build.wasm",
+        dataUrl: buildUrl + "/FloppyBoiPlatformer.data",
+        frameworkUrl: buildUrl + "/FloppyBoiPlatformer.framework.js",
+        codeUrl: buildUrl + "/FloppyBoiPlatformer.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Weirdo Games",
         productName: "Floppy Boi",
@@ -90,8 +90,6 @@
 
         canvas.style.width = window.innerWidth + 'px';
         canvas.style.height = window.innerHeight + 'px';
-
-        unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
